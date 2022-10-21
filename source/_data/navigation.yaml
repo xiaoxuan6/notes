@@ -1,0 +1,15 @@
+logo:
+  text: My Notes
+  type: link
+  path: index.html
+
+main:
+- text: Overview
+  type: link
+  path: index.html
+
+- text: Php
+  type: label
+- text: 中文
+  type: link
+  path: php/中文.html
