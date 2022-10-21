@@ -14,7 +14,10 @@ title: 首页
 [phpstudy](https://www.xp.cn/download.html)
 [switch hosts](https://github.com/oldj/SwitchHosts/tags)
 [xdebug](https://xdebug.org/wizard)
+[elasticsearch](https://www.elastic.co/cn/downloads/elasticsearch)
+[kibana](https://www.elastic.co/cn/downloads/past-releases#kibana)
 [rabbitmq](https://www.rabbitmq.com/install-windows.html#downloads)
+[rabbitmq 延迟队列](https://blog.rabbitmq.com/posts/2015/04/scheduling-messages-with-rabbitmq)
 
 ### 编译器
 [Go 2021.1.3](https://www.jetbrains.com/go/download/other.html)
