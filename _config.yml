@@ -105,3 +105,6 @@ deploy:
   type: git
   repository: https://github.com/xiaoxuan6/notes.git
   branch: deployer
+
+theme_config:
+  favicon: images/favicon.ico

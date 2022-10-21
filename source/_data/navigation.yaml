@@ -13,3 +13,21 @@ main:
 - text: 中文
   type: link
   path: php/中文.html
+
+- text: GO
+  type: label
+- text: 中文
+  type: link
+  path: go/中文.html
+
+- text: Python
+  type: label
+- text: 中文
+  type: link
+  path: Py/中文.html
+
+- text: Mysql
+  type: label
+- text: 中文
+  type: link
+  path: mysql/中文.html
