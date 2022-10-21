@@ -4,11 +4,11 @@ logo:
   path: index.html
 
 main:
-- text: Overview
+- text: 首页
   type: link
   path: index.html
 
-- text: Php
+- text: PHP
   type: label
 - text: 中文
   type: link
