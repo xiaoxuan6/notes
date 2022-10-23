@@ -25,6 +25,9 @@ main:
 - text: 中文
   type: link
   path: Py/中文.html
+- text: 让 Python 在 HTML 中运行
+  type: link
+  path: Py/让Python在HTML中运行.html
 
 - text: Mysql
   type: label
