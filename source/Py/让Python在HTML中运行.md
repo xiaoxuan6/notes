@@ -13,10 +13,17 @@ title: 让 Python 在 HTML 中运行
             margin-bottom: 10.5px;
         }
     </style> 
+    <py-env>
+    - paths:
+        - ./py/demo.py
+    </py-env>
   </head>
   <body> 
     <py-script> 
-        print('Hello, World!') 
+    from demo import prinff
+    from demo import path
+    prinff()
+    path()
     </py-script> 
   </body>
 </html>
@@ -25,3 +32,5 @@ title: 让 Python 在 HTML 中运行
 [PyScript：让Python在HTML中运行](https://juejin.cn/post/7095808599305224199)
 
 [PyScript：让 Python在Web 中跑起来](https://view.inews.qq.com/a/20220610A05D0X00)
+
+[ PyScript 介绍——在你的网络浏览器中运行Python](https://juejin.cn/post/7126735201761230861#heading-3)
