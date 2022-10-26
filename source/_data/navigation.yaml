@@ -34,3 +34,9 @@ main:
 - text: 中文
   type: link
   path: mysql/中文.html
+
+- text: Linx
+  type: label
+- text: oh my zsh
+  type: link
+  path: linux/oh_my_zsh.html
