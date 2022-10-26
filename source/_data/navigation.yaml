@@ -40,9 +40,12 @@ main:
 
 - text: docker
   type: label
-- text: 中文
+- text: 安装 docker
   type: link
-  path: docker/中文.html
+  path: docker/docker 安装.html
+- text: 安装 docker-compose
+  type: link
+  path: docker/docker-compose 安装.html
 
 - text: elasticsearch
   type: label
