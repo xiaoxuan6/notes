@@ -22,9 +22,6 @@ main:
 
 - text: Python
   type: label
-- text: 中文
-  type: link
-  path: Py/中文.html
 - text: 让 Python 在 HTML 中运行
   type: link
   path: Py/让Python在HTML中运行.html
@@ -40,3 +37,15 @@ main:
 - text: oh my zsh
   type: link
   path: linux/oh_my_zsh.html
+
+- text: docker
+  type: label
+- text: 中文
+  type: link
+  path: docker/中文.html
+
+- text: elasticsearch
+  type: label
+- text: 中文
+  type: link
+  path: elasticsearch/中文.html
