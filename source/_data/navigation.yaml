@@ -40,6 +40,9 @@ main:
 - text: command not found ifconfig
   type: link
   path: linux/ipconfig.html
+- text: Window10主机访问WSL子系统网络服务
+  type: link
+  path: linux/从window访问wsl地址.html
 
 - text: docker
   type: label
