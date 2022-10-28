@@ -32,11 +32,14 @@ main:
   type: link
   path: mysql/中文.html
 
-- text: Linx
+- text: Linux
   type: label
 - text: oh my zsh
   type: link
   path: linux/oh_my_zsh.html
+- text: command not found ifconfig
+  type: link
+  path: linux/ipconfig.html
 
 - text: docker
   type: label
