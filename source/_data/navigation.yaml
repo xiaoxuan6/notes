@@ -52,6 +52,9 @@ main:
 - text: 安装 docker-compose
   type: link
   path: docker/docker-compose 安装.html
+- text: docker-compose中nginx可以访问html无法访问php 提示File not found
+  type: link
+  path: docker/File not found.html
 
 - text: elasticsearch
   type: label
