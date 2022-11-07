@@ -66,6 +66,9 @@ main:
 - text: docker-compose中nginx可以访问html无法访问php 提示File not found
   type: link
   path: docker/File not found.html
+- text: docker 多阶构建
+  type: link
+  path: docker/docker 多阶构建.html
 
 - text: elasticsearch
   type: label

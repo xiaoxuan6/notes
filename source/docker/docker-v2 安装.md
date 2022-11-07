@@ -2,7 +2,7 @@
 title: docker 安装教程 
 ---
 
-# 安装 docker（推荐：docker-php-ext-install 在版本）
+## 【推荐】安装 docker（docker-php-ext-install 在 docker 20 版本以下报错 ）
 
 完成 `Step 1 — Installing Docker`
 
