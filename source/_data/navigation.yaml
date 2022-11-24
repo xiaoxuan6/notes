@@ -16,9 +16,9 @@ main:
 
 - text: GO
   type: label
-- text: 中文
+- text: 常见的低级错误
   type: link
-  path: go/中文.html
+  path: go/常见的低级错误.html
 
 - text: Python
   type: label
