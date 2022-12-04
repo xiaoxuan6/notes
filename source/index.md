@@ -29,6 +29,10 @@ title: 首页
 https://plugins.zhile.io
 ```
 
-[剪切板](https://ditto-cp.sourceforge.io)
+
+### 其他工具
 [WSL](https://www.jianshu.com/p/6b02948b3d37)
 [Docker](https://www.cnblogs.com/walker-lin/p/11214127.html)
+[剪切板](https://ditto-cp.sourceforge.io)
+[图床](https://github.com/Molunerfinn/PicGo/releases)
+[gitbash 添加 make](https://www.cnblogs.com/WLCYSYS/p/16715366.html)
