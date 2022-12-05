@@ -41,6 +41,7 @@ $ minikube start --driver=docker
 解决方法：`minikube start --force --driver=docker`
 
 > 参考地址：
+> https://segmentfault.com/a/1190000023702396
 > https://www.lsbin.com/9491.html
 > https://www.jianshu.com/p/3e0a9d79a70d
 > https://blog.51cto.com/u_2837193/4956577
