@@ -75,3 +75,9 @@ main:
 - text: 中文
   type: link
   path: elasticsearch/中文.html
+
+- text: ubuntu
+  type: label
+- text: 安装 Minikube
+  type: link
+  path: ubuntu/安装 Minikube.html
