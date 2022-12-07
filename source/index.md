@@ -2,9 +2,7 @@
 title: 首页
 ---
 
-# 文档首页
-
-## 开发工具
+# 开发工具
 
 [composer](https://getcomposer.org/download)
 [redis](https://github.com/tporadowski/redis/releases)

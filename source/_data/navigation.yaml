@@ -8,6 +8,12 @@ main:
   type: link
   path: index.html
 
+- text: 工作技巧
+#  type: label
+#- text: 备忘录
+  type: link
+  path: md/备忘录.html
+
 - text: PHP
   type: label
 - text: 中文
@@ -48,7 +54,6 @@ main:
   type: label
 - text: 安装 docker
   type: label
-#  path: docker/docker 安装.html
   children:
     - text: Docker version 17.09.0
       type: link
@@ -56,7 +61,6 @@ main:
     - text: Docker version 20.10.21
       type: link
       path: docker/docker-v2 安装.html
-
 - text: 卸载 docker
   type: link
   path: docker/docker 卸载.html
