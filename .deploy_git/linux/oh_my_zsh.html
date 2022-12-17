@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Vinhson notes | Oh My Zsh </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+
+    <!-- fonts -->
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Ubuntu:300,400,500,600,700" rel="stylesheet">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="/notes/style/doc.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="/notes/images/favicon.ico">
+
+    
+
+  <meta name="generator" content="Hexo 6.3.0"></head>
+  <body>
+
+   <script>window.__INITIAL_STATE__ = {"page":{"title":"Oh My Zsh","path":"linux/oh_my_zsh.html"},"data":{"navigation":{"logo":{"text":"My Notes","type":"link","path":"index.html"},"main":[{"text":"首页","type":"link","path":"index.html"},{"text":"工作技巧","type":"link","path":"md/备忘录.html"},{"text":"PHP","type":"label"},{"text":"中文","type":"link","path":"php/中文.html"},{"text":"GO","type":"label"},{"text":"常见的低级错误","type":"link","path":"go/常见的低级错误.html"},{"text":"开源包收集","type":"link","path":"go/开源包收集.html"},{"text":"Python","type":"label"},{"text":"让 Python 在 HTML 中运行","type":"link","path":"Py/让Python在HTML中运行.html"},{"text":"Mysql","type":"label"},{"text":"中文","type":"link","path":"mysql/中文.html"},{"text":"Linux","type":"label"},{"text":"oh my zsh","type":"link","path":"linux/oh_my_zsh.html"},{"text":"command not found ifconfig","type":"link","path":"linux/ipconfig.html"},{"text":"Window10主机访问WSL子系统网络服务","type":"link","path":"linux/从window访问wsl地址.html"},{"text":"docker","type":"label"},{"text":"安装 docker","type":"label","children":[{"text":"Docker version 17.09.0","type":"link","path":"docker/docker 安装.html"},{"text":"Docker version 20.10.21","type":"link","path":"docker/docker-v2 安装.html"}]},{"text":"卸载 docker","type":"link","path":"docker/docker 卸载.html"},{"text":"安装 docker-compose","type":"link","path":"docker/docker-compose 安装.html"},{"text":"docker-compose中nginx可以访问html无法访问php 提示File not found","type":"link","path":"docker/File not found.html"},{"text":"docker 多阶构建","type":"link","path":"docker/docker 多阶构建.html"},{"text":"docker 容器无法访问外网","type":"link","path":"docker/docker 容器无法访问外网.html"},{"text":"elasticsearch","type":"label"},{"text":"中文","type":"link","path":"elasticsearch/中文.html"},{"text":"ubuntu","type":"label"},{"text":"安装 Minikube","type":"link","path":"ubuntu/安装 Minikube.html"}]}},"config":{"timezone":"","root":"/notes/","time_format":"HH:mm:ss","theme":"doc","theme_config":{"swagger_ui":{"version":2,"permalinks":true,"api_explorer":true,"download":"Download specification","show_extensions":false,"deep_linking":true,"display_operation_id":false,"doc_expansion":"none"},"search":{"skip":false,"background":false,"route":"/lunr.json"},"favicon":"images/favicon.ico"}}}</script>
+
+    <div id="react-navigation-root"><div class="doc-navigation" data-reactroot=""><nav class="doc-navbar"><a href="/notes/index.html" class="doc-navbar__logo"><img src="/notes/images/logo.png" class="doc-navbar__logo__img"/><span class="doc-navbar__logo__text">My Notes</span></a><i class="dc-icon dc-icon--close dc-icon--interactive doc-sidebar-close doc-navbar__sidebar-close doc-navbar__sidebar-close--desktop"></i><i class="dc-icon dc-icon--menu dc-icon--interactive doc-sidebar-toggle doc-navbar__sidebar-toggle"></i></nav><nav class="doc-sidebar"><div class="doc-sidebar__vertical-menu"><i class="dc-icon dc-icon--menu dc-icon--interactive doc-sidebar-toggle doc-sidebar-toggle--primary doc-sidebar__vertical-menu__item"></i><i class="dc-icon dc-icon--search dc-icon--interactive doc-sidebar__vertical-menu__item doc-sidebar__vertical-menu__item--primary"></i></div><div class="doc-sidebar-content"><div class="doc-sidebar__search-form"></div><ul class="doc-sidebar-list"></ul></div></nav></div></div>
+    <div class="doc-content">
+  <div class="dc-page">
+    <div class="dc-card">
+      <div id="react-search-results-root"></div>
+      <div id="page-content" class="doc-formatting">
+        <h1 id="Zsh-是什么"><a href="#Zsh-是什么" class="headerlink" title="Zsh 是什么"></a>Zsh 是什么</h1><p>Zsh 是一款强大的虚拟终端，既是一个系统的虚拟终端，也可以作为一个脚本语言的交互解析器。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 打开终端，在终端上输入: </span></span><br><span class="line">zsh --version</span><br><span class="line"></span><br><span class="line"><span class="comment"># 这个命令来查看我们的电脑上是否安装了 Zsh </span></span><br></pre></td></tr></table></figure>
+
+<h2 id="安装-Oh-My-Zsh-方法"><a href="#安装-Oh-My-Zsh-方法" class="headerlink" title="安装 Oh My Zsh 方法"></a>安装 Oh My Zsh 方法</h2><p>可以通过 curl 或 wget 两种方式来安装，用一条命令即可安装。</p>
+<h3 id="curl-安装"><a href="#curl-安装" class="headerlink" title="curl 安装"></a>curl 安装</h3><p>GitHub:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sh -c &quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;</span><br></pre></td></tr></table></figure>
+
+<p>Gitee ( 国内镜像 )</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sh -c &quot;$(curl -fsSL https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh)&quot;</span><br></pre></td></tr></table></figure>
+
+<h3 id="wget-安装"><a href="#wget-安装" class="headerlink" title="wget 安装"></a>wget 安装</h3><p>GitHub:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sh -c &quot;$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)&quot;</span><br></pre></td></tr></table></figure>
+
+<p>Gitee ( 国内镜像 )</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sh -c &quot;$(wget -O- https://gitee.com/pocmon/mirrors/raw/master/tools/install.sh)&quot;</span><br></pre></td></tr></table></figure>
+
+<h2 id="设置主题"><a href="#设置主题" class="headerlink" title="设置主题"></a>设置主题</h2><h3 id="设置固定主题"><a href="#设置固定主题" class="headerlink" title="设置固定主题"></a>设置固定主题</h3><p>安装完毕后，我们就可以使用了，先来简单配置一下，<code>Oh My Zsh</code> 提供了很多主题风格，我们可以根据自己的喜好，设置主题风格</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">vim ~/.zshrc</span><br><span class="line"></span><br><span class="line"># 找到 ZSH_THEME</span><br><span class="line"># robbyrussell 是默认的主题</span><br><span class="line">ZSH_THEME=&quot;robbyrussell&quot;</span><br><span class="line"></span><br><span class="line"># ZSH_THEME=&quot;样式名称&quot;</span><br><span class="line">ex:</span><br><span class="line">  ZSH_THEME=&quot;ys&quot; </span><br></pre></td></tr></table></figure>
+<p>保存这个文件文件，重新打开终端。刷新 <code>zshcr</code></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source ~/.zshrc </span><br></pre></td></tr></table></figure>
+
+<h3 id="设置随机主题"><a href="#设置随机主题" class="headerlink" title="设置随机主题"></a>设置随机主题</h3><p>步骤如上，仅需设置 <code>ZSH_THEME</code> 为 <code>random</code> 即可。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ZSH_THEME=&quot;random&quot;</span><br></pre></td></tr></table></figure>
+
+<h2 id="查看主题名称"><a href="#查看主题名称" class="headerlink" title="查看主题名称"></a>查看主题名称</h2><p><code>Oh My Zsh</code> 默认自带了一些默认主题，存放在 <code>~/.oh-my-zsh/themes</code> 目录中。我们可以查看这些主题<br>终端输入：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd ~/.oh-my-zsh/themes &amp;&amp; ls</span><br></pre></td></tr></table></figure>
+
+<h2 id="更多主题样式"><a href="#更多主题样式" class="headerlink" title="更多主题样式"></a>更多主题样式</h2><p><a href="https://link.zhihu.com/?target=https://github.com/robbyrussell/oh-my-zsh/wiki/Themes">Themes</a></p>
+<h2 id="卸载-Oh-My-Zsh"><a href="#卸载-Oh-My-Zsh" class="headerlink" title="卸载 Oh My Zsh"></a>卸载 Oh My Zsh</h2><p>终端输入：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">uninstall_oh_my_zsh</span><br></pre></td></tr></table></figure>
+
+<p>终端提示信息：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Removing ~/.oh-my-zsh</span><br><span class="line">Looking for original zsh config...</span><br><span class="line">Found ~/.zshrc.pre-oh-my-zsh -- Restoring to ~/.zshrc</span><br><span class="line">Found ~/.zshrc -- Renaming to ~/.zshrc.omz-uninstalled-20170820200007</span><br><span class="line">Your original zsh config was restored. Please restart your session.</span><br><span class="line">Thanks for trying out Oh My Zsh. It&#x27;s been uninstalled.</span><br></pre></td></tr></table></figure>
+
+<h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><p>Oh My Zsh 的自动更新提示误触关掉了解决办法<br>打开终端输入：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">upgrade_oh_my_zsh</span><br></pre></td></tr></table></figure>
+        <div id="react-support-footer-root"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+
+    
+
+    <!-- js vendors -->
+    <script src="//code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/lunr.js/2.1.0/lunr.min.js"></script>
+
+    <!-- js source  -->
+    <script src="/notes/script/doc.js"></script>
+
+    
+
+  </body>
+</html>
