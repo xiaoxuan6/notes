@@ -27,7 +27,7 @@ main:
   path: go/常见的低级错误.html
 - text: 开源包收集
   type: link
-  path: go/开源包收集.md.html
+  path: go/开源包收集.html
 
 - text: Python
   type: label
