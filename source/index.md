@@ -34,3 +34,4 @@ https://plugins.zhile.io
 [图床](https://github.com/Molunerfinn/PicGo/releases)
 [gitbash 添加 make](https://www.cnblogs.com/WLCYSYS/p/16715366.html)
 [gitbash 添加 wget](https://www.jianshu.com/p/fb6601795011)
+[Typora](https://zahui.fan/posts/64b52e0d/)
