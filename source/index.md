@@ -28,10 +28,12 @@ https://plugins.zhile.io
 ```
 
 ### 其他工具
-[WSL](https://www.jianshu.com/p/6b02948b3d37)
-[Docker](https://www.cnblogs.com/walker-lin/p/11214127.html)
-[剪切板](https://ditto-cp.sourceforge.io)
 [图床](https://github.com/Molunerfinn/PicGo/releases)
 [gitbash 添加 make](https://www.cnblogs.com/WLCYSYS/p/16715366.html)
 [gitbash 添加 wget](https://www.jianshu.com/p/fb6601795011)
 [Typora](https://zahui.fan/posts/64b52e0d/)
+
+[eSearch](https://esearch.vercel.app/#download)
+
+
+
